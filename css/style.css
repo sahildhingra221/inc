@@ -1,0 +1,31 @@
+body{
+  user-select: none;
+}
+input[type=text] {
+  width: 33%;
+  font: normal 18px Helvetica, sans-serif;
+  text-align: center;
+  height: 35px;
+  border: 0px;
+}
+.tm-quantity {
+  overflow: hidden;
+  margin: 0 0 5px 0;
+  width: 170px;
+}
+.button-incdc {
+  text-indent: -9999px;
+  cursor: pointer;
+  height: 36px;
+  text-align: center;
+  background: url(../images/incdc-btn-bg.png) no-repeat;
+  width: 33%;
+}
+.inc {
+  float:right;
+  background-position:-175px -38px;
+}
+.dec {
+  float: left;
+  background-position:-42px -38px;
+}
